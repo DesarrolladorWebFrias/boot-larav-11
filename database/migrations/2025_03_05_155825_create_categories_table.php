@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('title', 500);     //titulo de la categoria 
             $table->string('slug',);         //url limpia   
-            $table->foreignId('category_id')->constrained()->onDelete('cascade');
+
         });
     }
 
